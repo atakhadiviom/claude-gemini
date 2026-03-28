@@ -2,6 +2,7 @@
 
 Uses daily log files (costs-YYYY-MM-DD.jsonl) so daily_spend() only reads today's file.
 """
+from __future__ import annotations
 import json
 import os
 from datetime import datetime

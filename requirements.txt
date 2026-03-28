@@ -1,1 +1,2 @@
-google-genai>=1.39.0
+# No pip dependencies required. Uses gemini CLI via subprocess.
+# Install gemini CLI: npm install -g @google/gemini-cli

@@ -1,4 +1,5 @@
 """SHA256-based response cache for Gemini API calls."""
+from __future__ import annotations
 import hashlib
 import json
 import os
